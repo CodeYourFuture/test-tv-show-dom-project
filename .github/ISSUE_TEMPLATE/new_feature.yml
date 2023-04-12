@@ -12,14 +12,21 @@ body:
   - type: textarea
     id: proposed-functionality
     attributes:
-      label: Proposed functionality
+      label: User stories
       description: Describe the feature / functionality the user requires
     validations:
-      required: false
+      required: false    
   - type: textarea
     id: acceptance-criteria
     attributes:
       label: Acceptance criteria
       description: List all the requirements that must be met for this issue to be considered done
+    validations:
+      required: true
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screen shot
+      description: Attach an image giving basic indication of how the feature should look
     validations:
       required: true
