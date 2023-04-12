@@ -1,6 +1,6 @@
 name: Feature request
 description: Add a new feature
-title: "[Bug]: "
+title: "Feature: "
 labels: ["backlog"]
 assignees:
   - octocat
@@ -8,13 +8,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug issue!
+        Thanks for taking the time to fill out this feature request form!
   - type: textarea
     id: proposed-functionality
     attributes:
       label: Proposed functionality
       description: Describe the feature / functionality the user requires
-      placeholder: ex. email@example.com
     validations:
       required: false
   - type: textarea
