@@ -22,6 +22,5 @@ body:
     attributes:
       label: Acceptance criteria
       description: List all the requirements that must be met for this issue to be considered done
-      value: "A bug happened!"
     validations:
       required: true
